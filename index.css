@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(254, 246, 235);
+  font-family: 'Architects Daughter', cursive;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  background-color: rgb(185, 234, 38);
+  width: 300px;
+  min-height: 300px;
+  border-radius: 20px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.container-topic {
+  text-align: center;
+  color: rgb(54, 54, 54);
+  padding-bottom: 20px;
+}
+
+.container-checkbox,
+.container-input {
+  color: rgb(54, 54, 54);
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.container-checkbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-button {
+  background-color: rgb(244, 106, 106);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.your-task {
+  border-radius: 3px;
+  border: none;
+  height: 16px;
+  padding-left: 10px;
+}
